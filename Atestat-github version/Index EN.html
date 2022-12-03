@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<title>The Universe</title>
+<link rel="icon" type="image/x-icon" href="/Images/blackholefavicon2.png">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="X-UA-Compatible" content="ie-edge">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+<style>
+body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
+.w3-row-padding img {margin-bottom: 12px}
+/* Set the width of the sidebar to 120px */
+.w3-sidebar {width: 120px;background: #222;}
+/* Add a left margin to the "page content" that matches the width of the sidebar (120px) */
+#main {margin-left: 120px}
+/* Remove margins from "page content" on small screens */
+@media only screen and (max-width: 600px) {#main {margin-left: 0}}
+</style>
+<body class="w3-black" onload="myFunction2()" style="margin:0;">
+
+  <div id="loader"></div>
+  <div style="display:none;" id="myDiv" class="animate-bottom">
+  
+<!-- Icon Bar (Sidebar - hidden on small screens) -->
+<nav class="w3-sidebar w3-bar-block w3-small w3-hide-small w3-center">
+  <!-- Avatar image in top left corner -->
+  <img src="Images/universe.jpg" style="width:100%">
+  <a href="#Introduction" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="w3-xxlarge"></i>
+    <p>Introduction</p>
+  </a>
+  <a href="#main" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="w3-xxlarge"></i>
+    <p>Black Holes</p>
+  </a>
+  <a href="#Spacetime" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="w3-xxlarge"></i>
+    <p>Spacetime</p>
+  </a>
+  <a href="#Neutron Stars" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    <i class="w3-xxlarge"></i>
+    <p>Neutron Stars</p>
+  </a>
+  <a href="Index RO.html" class="w3-bar-item w3-button w3-padding-large w3-hover-black">
+    Language
+    <p>RO</p>
+  </a>
+</nav>
+
+<!-- Navbar on small screens (Hidden on medium and large screens) -->
+<div class="w3-top w3-hide-large w3-hide-medium" id="myNavbar">
+  <div class="w3-bar w3-black w3-opacity w3-hover-opacity-off w3-center w3-small">
+    <a href="#Introduction" class="w3-bar-item w3-button" style="width:25% !important">Introduction</a>
+    <a href="#" class="w3-bar-item w3-button" style="width:25% !important">Black Holes</a>
+    <a href="#Spacetime" class="w3-bar-item w3-button" style="width:25% !important">Spacetime</a>
+    <a href="#Neutron Stars" class="w3-bar-item w3-button" style="width:25% !important">Neutron Stars</a>
+    <a href="Index RO.html" class="w3-bar-item w3-button" style="width:25% !important">Language</a>
+  </div>
+</div>
+
+<!--Progress bar-->
+<div class="header">
+  <div class="progress-container">
+    <div class="progress-bar" id="myBar"></div>
+  </div>
+</div>
+
+<!-- Introduction Page Content -->
+<div id="Introduction">
+  <!-- Black Hole Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Introduction</span></h1>
+    <p>Tables of content</p>
+  </header>
+
+  <!-- Introduction section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+    <h2 class="w3-text-light-grey">Introduction summary</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>
+      The universe is the sum of space and time, of all forms of matter and energy. 
+      While the size of the entire Universe is unknown, the observable universe can be measured and is currently estimated at 93
+       billion light-years in diameter.
+    </p>
+
+<br>
+<br>
+<!-- Black Holes Page Content -->
+<div class="bhdiv" id="main">
+  <!-- Black Hole Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Black</span> Holes</h1>
+    <p>A region of spacetime</p>
+    <img src="Images/blackhole.gif" class="bhgif" width="700" height="450">
+  </header>
+
+  <!-- Black Holes section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+    <h2 class="w3-text-light-grey">Black Holes</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>&nbsp&nbsp&nbsp&nbspIn a black hole is a region of spacetime where gravity is so strong that nothing, 
+no particles or even electromagnetic radiation such as light can escape from it. 
+The theory of general relativity predicts that a sufficiently compact mass can deform spacetime 
+to form a black hole. The boundary of no escape is called the event horizon. Although it has an enormous effect on the fate and 
+circumstances of an object crossing it, according to general relativity it has no locally detectable features. 
+In many ways, a black hole acts like an ideal black body, as it reflects no light. Moreover, quantum field theory in curved 
+spacetime predicts that event horizons emit Hawking radiation, with the same spectrum as a black body of a temperature inversely proportional
+ to its mass. This temperature is on the order of billionths of a kelvin for black holes of stellar mass, making it essentially impossible
+  to observe directly. Objects whose gravitational fields are too strong for light to escape were first considered in the 18th century by 
+  John Michell and Pierre Simon Laplace. The first modern solution of general relativity that would characterize a black hole was found
+   by Karl Schwarzschild in 1916, and its interpretation as a region of space from which nothing can escape was first published by David Finkelstein
+    in 1958. Black holes were long considered a mathematical curiosity; it was not until the 1960s that theoretical work showed they were
+     a generic prediction of general relativity. The discovery of neutron stars by Jocelyn Bell Burnell in 1967 sparked interest in
+      gravitationally collapsed compact objects as a possible astrophysical reality. The first black hole known as such was Cygnus X-1,
+       identified by several researchers independently in 1971.
+
+  Black holes of stellar mass form when very massive stars collapse at the end of their life cycle. After a black hole has formed,
+   it can continue to grow by absorbing mass from its surroundings. By absorbing other stars and merging with other black holes,
+    supermassive black holes of millions of solar masses (M☉) may form. There is consensus that supermassive black holes exist in the
+     centers of most galaxies.
+    </p>
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">100m+</span><br>
+        Black Holes in the Milky Way
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10M☉+</span><br>
+        Aproximate size
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">TON 618</span><br>
+        Biggest Black Hole
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">3</span><br>
+        Types of black holes
+    </div>
+	</div>
+<!-- Black Holes Photos Section -->
+<div class="w3-content w3-justify w3-text-grey w3-padding-64">
+    <h2 class="w3-text-light-grey">Black Hole Photos</h2>
+    <hr style="width:300px" class="w3-opacity">
+
+<!-- Slideshow container -->
+<div class="slideshow-container">
+  <div class="mySlides1">
+    <div class="numbertext">1 / 3</div>
+    <img src="Images/blackhole1.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <div class="numbertext">2 / 3</div>
+    <img src="Images/blackhole2.jpg" style="width:100%">
+  </div>
+
+  <div class="mySlides1">
+    <div class="numbertext">3 / 3</div>
+    <img src="Images/blackhole3.jpg" style="width:100%">
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+</div>
+
+<br>
+<br>
+<!-- Spacetime Page Content -->
+<div class="bhdiv" id="Spacetime">
+  <!-- Spacetime Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Space</span> Time</h1>
+    <p>A Mathematical model which fuses the three dimensions of space and the one dimension of time into a single four-dimensional manifold.</p>
+    <img src="Images/spacetime.gif" class="bhgif" width="700" height="450">
+  </header>
+
+  <!-- Spacetime section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+    <h2 class="w3-text-light-grey">Spacetime</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>&nbsp&nbsp&nbsp&nbspIn physics, spacetime is any mathematical model which fuses the three dimensions of space and the one dimension of 
+      time into a single four-dimensional manifold. Spacetime diagrams can be used to visualize relativistic effects, such as why different 
+      observers perceive differently where and when events occur.
+      <br>
+      <br>
+      Until the 20th century, it was assumed that the three-dimensional geometry of the universe 
+      (its spatial expression in terms of coordinates, distances, and directions) was independent of one-dimensional time. 
+      The physicist Albert Einstein helped develop the idea of spacetime as part of his theory of relativity. 
+      Prior to his pioneering work, scientists had two separate theories to explain physical phenomena:
+      <br>
+      <br>
+       Isaac Newton's laws of physics described the motion of massive objects, while James Clerk Maxwell's electromagnetic models explained 
+       the properties of light. However, in 1905, Einstein based a work on special relativity on two postulates:
+      <br>
+      <ul>
+      <li>The laws of physics are invariant (i.e., identical) in all inertial systems (i.e., non-accelerating frames of reference)</li>
+      <li>The speed of light in a vacuum is the same for all observers, regardless of the motion of the light source.</li>
+      </ul>
+      The logical consequence of taking these postulates together is the inseparable joining of the four dimensions hitherto assumed as
+       independent of space and time. Many counterintuitive consequences emerge: in addition to being independent of the motion of the light
+        source, the speed of light is constant regardless of the frame of reference in which it is measured;
+         the distances and even temporal ordering of pairs of events change when measured in different inertial frames of reference
+          (this is the relativity of simultaneity); and the linear additivity of velocities no longer holds true.
+    </p>
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">∞</span><br>
+        The spacetime continuum is infinite
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Time</span><br>
+        It's theoretically possible that time can be bent.
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Dimensions</span><br>
+        Acording to string theory, the universe has 10 dimensions.
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">Time Travel</span><br>
+        Time travel is theoretically possible
+    </div>
+	</div>
+<!-- Spacetime Photos Section -->
+<div class="w3-content w3-justify w3-text-grey w3-padding-64">
+    <h2 class="w3-text-light-grey">Spacetime Gifs</h2>
+    <hr style="width:300px" class="w3-opacity">
+
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+      <div class="mySlides2">
+        <div class="numbertext">1 / 3</div>
+        <img src="Images/spacetime2.gif" style="width:100%">
+      </div>
+    
+      <div class="mySlides2">
+        <div class="numbertext">2 / 3</div>
+        <img src="Images/spacetime3.gif" style="width:100%">
+      </div>
+    
+      <div class="mySlides2">
+        <div class="numbertext">3 / 3</div>
+        <img src="Images/spacetime4.gif" style="width:100%">
+      </div>
+    
+      <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+    </div>
+<br>
+
+<br>
+<br>
+<!-- Neutron Stars Page Content -->
+<div class="bhdiv" id="Neutron Stars">
+  <!-- Neutron Stars Header/Home -->
+  <header class="w3-container w3-padding-32 w3-center w3-black" id="home">
+    <h1 class="w3-jumbo"><span class="w3-hide-small">Neutron</span> Stars</h1>
+    <p>The collapsed core of a massive supergiant star</p>
+    <img src="Images/neutronstar4.gif" class="bhgif" width="700" height="450">
+  </header>
+
+  <!-- Neutron Stars section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-64">
+    <h2 class="w3-text-light-grey">Neutron Stars</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p>&nbsp&nbsp&nbsp&nbspIn A neutron star is the collapsed core of a massive supergiant star, 
+      which had a total mass of between 10 and 25 solar masses, possibly more if the star was especially metal-rich. 
+      Except for black holes, and some hypothetical objects (e.g. white holes, quark stars, and strange stars), 
+      neutron stars are the smallest and densest currently known class of stellar objects. 
+      Neutron stars have a radius on the order of 10 kilometres (6.2 mi) and a mass of about 1.4 solar masses. 
+      They result from the supernova explosion of a massive star, combined with gravitational collapse, 
+      that compresses the core past white dwarf star density to that of atomic nuclei. Once formed, they no longer actively generate heat,
+       and cool over time; however, they may still evolve further through collision or accretion. Most of the basic models for these objects
+        imply that neutron stars are composed almost entirely of neutrons (subatomic particles with no net electrical charge and with
+         slightly larger mass than protons); the electrons and protons present in normal matter combine to produce neutrons at the conditions
+          in a neutron star. Neutron stars are partially supported against further collapse by neutron degeneracy pressure,
+           a phenomenon described by the Pauli exclusion principle, just as white dwarfs are supported against collapse by electron degeneracy
+            pressure. However, neutron degeneracy pressure is not by itself sufficient to hold up an object beyond 0.7M☉ and repulsive nuclear
+             forces play a larger role in supporting more massive neutron stars. If the remnant star has a mass exceeding the Tolman Oppenheimer Volkoff
+              limit of around 2 solar masses, the combination of degeneracy pressure and nuclear forces is insufficient to support the neutron
+               star and it continues collapsing to form a black hole. 
+               The most massive neutron star detected so far, PSR J0740+6620, is estimated to be 2.14 solar masses.
+    </p>
+    <div class="w3-row w3-center w3-padding-16 w3-section w3-light-grey">
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">1B+</span><br>
+        Neutron Stars in the Milky Way
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">42960 RPM</span><br>
+        Fastest spinning Neutron Star
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">PSR J0740</span><br>
+        Largest Neutron Star
+      </div>
+      <div class="w3-quarter w3-section">
+        <span class="w3-xlarge">10<sup>17</sup> kg/m3</span><br>
+        Density of a Neutron Star
+    </div>
+	</div>
+<!-- Neutron Star Photos Section -->
+<div class="w3-content w3-justify w3-text-grey w3-padding-64">
+    <h2 class="w3-text-light-grey">Neutron Star Gifs</h2>
+    <hr style="width:300px" class="w3-opacity">
+
+       <!-- Slideshow container -->
+       <div class="slideshow-container">
+        <div class="mySlides3">
+          <div class="numbertext">1 / 3</div>
+          <img src="Images/neutronstar2.gif" style="width:100%">
+        </div>
+      
+        <div class="mySlides3">
+          <div class="numbertext">2 / 3</div>
+          <img src="Images/neutronstar3.gif" style="width:100%">
+        </div>
+      
+        <div class="mySlides3">
+          <div class="numbertext">3 / 3</div>
+          <img src="Images/neutronstar4.gif" style="width:100%">
+        </div>
+      
+        <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+      </div>
+
+<!--Slideshow script-->
+<script>
+  var slideIndex = [1, 2, 3];
+  var slideId = ["mySlides1", "mySlides2", "mySlides3"]
+  showSlides(1, 0);
+  showSlides(1, 1);
+  showSlides(1, 2);
+  
+  function plusSlides(n, no) {
+    showSlides(slideIndex[no] += n, no);
+  }
+  
+  function showSlides(n, no) {
+    var i;
+    var x = document.getElementsByClassName(slideId[no]);
+    if (n > x.length) {slideIndex[no] = 1}    
+    if (n < 1) {slideIndex[no] = x.length}
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    x[slideIndex[no]-1].style.display = "block";  
+  }
+  </script>
+  
+
+<!--Progress bar script-->
+<script>
+  // When the user scrolls the page, execute myFunction 
+  window.onscroll = function() {myFunction()};
+  
+  function myFunction() {
+    var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+    var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+    var scrolled = (winScroll / height) * 100;
+    document.getElementById("myBar").style.width = scrolled + "%";
+  }
+  </script>
+
+<!--Pre-loader script-->
+<script>
+  var myVar;
+  
+  function myFunction2() {
+    myVar = setTimeout(showPage, 3000);
+  }
+  
+  function showPage() {
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
+  }
+  </script>
+
+  </div>
+</body>
+</html>
